@@ -1,0 +1,112 @@
+
+//sllider js puro
+.music__discos{
+    display: flex;
+    height: 500px;
+    padding: 100px;
+    width: 100%;
+    border: 1px solid #f9eded;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    white-space: nowrap; 
+    user-select: none; 
+    cursor: pointer;
+    transition: all 0.5s;
+    transform: scale(0.8);
+    position: relative;
+    font-size: 0;
+    perspective: 500px;
+  }
+  
+  
+  
+  .musicCD{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    margin-left: 60px;
+    
+  }
+  
+  .musicCD img{
+    width: 259px;
+    height: 249px;
+    border-radius: 31px;
+    box-shadow: -1px 2px 18px 0 #dfdddd2d;
+    
+  }
+  
+  .cd__up{
+    z-index:1;
+    position: absolute;
+    cursor: pointer;
+    transform-origin: top center;
+    transition: all 0.7s;
+    
+  }
+  
+  .cd__down{
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  
+  .cd__reflex {
+    border-radius: 30px;
+    padding:3px;
+    position: absolute;
+    display: flex;
+    transform: perspective(1000px) translateY(526px) rotateX(-180deg);
+    transform-origin: top center;
+    transition: all 0.7s;
+  }
+  .degrade__reflex{
+    border-radius: 20px;
+   
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-image: linear-gradient(180deg, rgba(255, 255, 255, 0) 0, white 98%); 
+    z-index: 1;
+  
+  }
+  
+  .relative__reflex{
+    position: relative;
+  
+  }
+  
+  
+  .musicCD:hover .cd__up {
+    transform: perspective(1000px) rotateX(70deg);
+  }
+  
+  .musicCD:hover .cd__reflex{
+   
+    transform: perspective(1000px) translateY(526px) rotateX(-221deg);
+  
+  }
+  
+  //keyframe slider
+  .musicCD{
+    -moz-animation: 8s musicCD 1;
+    -moz-backface-visibility: visible;
+  
+  };
+  
+  @keyframes musicCD{
+    40%{
+      -moz-transform: perspective(100px)
+                      rotateZ(1deg);
+    }
+    50%{
+      -moz-transform: perspective(100px)
+                      rotateZ(-2deg);
+    }
+    40%{
+      -moz-transform: perspective(100px)
+                      rotateZ(1deg);
+    }
+  
+  }
+  
+    

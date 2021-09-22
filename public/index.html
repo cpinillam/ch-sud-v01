@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Che Sudaka</title>
     <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
 </head>
 <body>
   
@@ -69,20 +70,30 @@
 --> 
         </section>
 
-        <section class="spotify">
-<!--          <div class="spotify_title">
+        <section class="music">
+         <div class="spotify_title">
                 <h1>Musica</h1>
                 <h2>De almas rebeldes</h2>
             </div>
-            <div class="spotify_cd" id="DOMcd">
-                <article class="cd">
-                    <div class="up up2">
-                    <img src="./img/cd1.jpg" >
-                    </div>
-                    <div class="down">play</div>
-                </article>
-           </div> 
--->
+
+
+            <div class="music__discos carousel" id="DOMdiscos"></div>
+
+    <!--slider con libreria swiper
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide"><img src="./img/cd1.jpg"></div>
+                  <div class="swiper-slide"><img src="./img/cd2.jpeg"></div>
+                  <div class="swiper-slide"><img src="./img/cd3.jpg"></div>
+             
+                
+                </div>
+                
+                <div class="swiper-pagination"></div>
+                <div class="swiper-button-next id"></div>
+                <div class="swiper-button-prev id"></div>
+              </div>
+    -->
 
         </section>
 
@@ -93,6 +104,7 @@
         
     </div>
   
-  
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="./js/music.js"></script>
 </body>
 </html>
