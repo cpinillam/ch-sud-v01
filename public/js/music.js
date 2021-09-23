@@ -71,7 +71,8 @@ var swiper = new Swiper(".swiper-container", {
       modifier: 1,
       slideShadows: true,
     },
-    pagination: {
-      el: ".swiper-pagination",
-    },
+  loop: true,
+  autoplay: 500,
+  disableOnInteraction: false,
+
   });
