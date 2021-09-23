@@ -35,8 +35,27 @@
   background-color: #e9c4d3;
 }
 
+h1 {
+  font-size: large;
+  color: white;
+}
+
+h2 {
+  font-size: large;
+  color: white;
+}
+
+.music {
+  background: #0e0d0d;
+}
+
+.gallery {
+  background: white;
+  border-radius: 20%;
+}
+
 .swiper-container {
-  background: #fff;
+  background: #0e0d0d;
   font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
   font-size: 14px;
   color: #000;
@@ -58,14 +77,15 @@
   background-size: cover;
   width: 25%;
   height: 25%;
-  background-color: black;
   -webkit-box-reflect: below 1px linear-gradient(transparent, transparent, #0006);
+  border-radius: 20%;
 }
 
 .swiper-slide img {
   display: block;
   width: 50%;
   height: 50%;
+  border-radius: 20%;
 }
 
 * {
