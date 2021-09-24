@@ -59,3 +59,26 @@ loadDiscos();
 
 //libreria swiper
 
+var swiper = new Swiper(".swiper-container", {
+    effect: "coverflow",
+    grabCursor: true,
+    centeredSlides: true,
+    slidesPerView: "auto",
+    coverflowEffect: {
+      rotate: 50,
+      stretch: 20,
+      depth: 0,
+      modifier: 1,
+      slideShadows: true,
+    },
+ 
+    pagination: {
+    el: ".swiper-pagination",
+  },
+    loop: true,
+    autoplay: 100,
+      delay:500,
+    disableOnInteraction: false,
+
+  });
+
