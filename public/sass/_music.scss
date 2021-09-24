@@ -37,7 +37,7 @@
   background: repeating-linear-gradient(45deg, rgba(0, 0, 0, 0.77) 36px, rgba(0, 0, 0, 0.94) 47px, #040404 25px, #f4f5f9 10px);
 }
 .music__down{
-  height: 30vh;
+  height: 23vh;
 }
 
 
@@ -45,31 +45,27 @@
 
 //libreria swipper
 
-body {
-  background: #fff;
-  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
-  font-size: 14px;
-  color:#000;
-  margin: 0;
-  padding: 0;
+.swiper{
   height: 100%;
+  overflow:visible !important;
 }
 .swiper-container {
   position: absolute;
   width: 100%;
   margin-top: 43vh;
-  -webkit-box-reflect: below 1px linear-gradient(transparent, transparent, black);
+ 
+  
 }
 
 .swiper-slide {
   background-position: center;
   background-size: cover;
   width: 300px;
- 
+  -webkit-box-reflect: below 0 linear-gradient(transparent, transparent, black);
+
   
 }
 .card-cd{
-  height: 300px;
   width: 300px !important;
   border-radius: 30px;
   box-shadow: -1px 2px 7px 3px #fdfdfd62; 
@@ -78,4 +74,9 @@ body {
 .card-cd img{
   border-radius: 20px;
   width: 300px;
+}
+
+
+.swiper-pagination{
+  --swiper-theme-color: #ebf0ed;
 }
