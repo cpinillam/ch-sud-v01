@@ -70,27 +70,73 @@
 --> 
         </section>
 
-        <section class="music">
-            <div class="music__title">
-            <h1>Musica</h1>
-            <h2>De almas rebeldes</h2>
+        <section class="musicContainer">
+            <div class="music__info">
+                <div class="music__banner">
+                    <h1 class="music__banner__title">Musica</h1>
+                    <h2 class="music__banner__subtitle">De almas rebeldes</h2> 
+                </div>
+                <aside class="music__aside"></aside>
             </div>
-            <div class="swiper-container" >
-            <div class="swiper-wrapper" id="DOMdiscos"></div>
-            <div class="swiper-pagination"></div>
-            </div>
-           
+            
+            <div class="swiper-container">
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper" id="DOMdiscos"></div>
+                    
+                    </div>
+                    <div class="swiper-pagination"></div>
+                  </div>
+              </div>
+            
+                <div class="swiper-pagination"></div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+          
 
-
+            
+            <div class="music__down"></div>
         </section>
 
+    
+                
+        
+  
+
+    
+    
+    
         <section class="gallery">
-<!--            <section class="footer"></section>   -->
-        </section>
+            <h1 class ="gallery__titulo">Todo Vuelve</h1>
+            <h2 class ="gallery__subtitulo">Galeria</h2>
+            <div class="gallery__site">
+                <div class ="gallery__box--principal">
+                <div class ="box gallery__xlBox__img">
+                        <img class = "gallery__img" src="img/che4.jpg" alt="foto Che sudaka">
+                </div>
+                </div>
+                <div class ="gallery__box--secundary">    
+                <div class ="box gallery__smallBox__img uno">
+                    <img class = "gallery__img" src="img/che1.jpg" alt="foto Che sudaka">
+                </div>   
+                <div class ="box gallery__smallBox__img dos">
+                    <img class = "gallery__img" src="img/che2.jpg" alt="foto Che sudaka">
+                </div>
+                <div class ="box gallery__smallBox__img tres">
+                    <img class = "gallery__img" src="img/che3cachafaz.jpg" alt="foto Che sudaka">
+                </div>
+                <div class ="box gallery__smallBox__img cuatro">
+                    <img class = "gallery__img" src="img/chesudaka3.jpg" alt="foto Che sudaka">
+                </div>
+                </div>
+            </div>    
+            <button class ="gallery__boton">Ver Mas</button>
+    </section>
 
         
     </div>
+  
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
   <script src="./js/music.js"></script>
+ 
 </body>
 </html>
