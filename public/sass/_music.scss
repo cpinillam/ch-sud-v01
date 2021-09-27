@@ -53,26 +53,33 @@
   position: absolute;
   width: 100%;
   margin-top: 43vh;
-  overflow-x: hidden;
-  -webkit-box-reflect: below 0 linear-gradient(transparent, transparent, black);
+
+ overflow-x: hidden;
+ 
+
+  
+
 }
 
 
 .swiper-slide {
   background-position: center;
   background-size: cover;
-  width: 300px;
+  width: 200px;
   -webkit-box-reflect: below 0 linear-gradient(transparent, transparent, black);
+  
 
   
 }
 .card-cd{
+ 
   width: 300px !important;
   border-radius: 30px;
-  box-shadow: -1px 2px 7px 3px #fdfdfd62; 
+  
 }
 
 .card-cd img{
+ 
   border-radius: 20px;
   width: 300px;
 }
@@ -81,7 +88,11 @@
 .swiper-pagination{
   --swiper-theme-color: #ebf0ed;
 }
+.play-spotify{
+    height:80px;
+    border-radius:20px;
+    opacity: 0.9;
+    border:none;
+}
 //app mobil//
-.swiper-mobil{
 
-}//
