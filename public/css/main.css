@@ -90,6 +90,7 @@
   width: 100%;
   margin-top: 43vh;
   overflow-x: hidden;
+  -webkit-box-reflect: below 0 linear-gradient(transparent, transparent, black);
 }
 
 .swiper-slide {
