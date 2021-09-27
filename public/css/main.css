@@ -89,12 +89,13 @@
   position: absolute;
   width: 100%;
   margin-top: 43vh;
+  overflow-x: hidden;
 }
 
 .swiper-slide {
   background-position: center;
   background-size: cover;
-  width: 300px;
+  width: 200px;
   -webkit-box-reflect: below 0 linear-gradient(transparent, transparent, black);
 }
 
