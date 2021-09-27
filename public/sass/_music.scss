@@ -2,7 +2,7 @@
     background: #fff;
     font-family: Helvetica Neue,Helvetica,Arial, Helvetica, Arial,sans-serif;
     font-size: 14px;
-    color:#000;
+    color:rgb(58, 15, 211);
     margin:0;
     padding:0;
     display:flex;
@@ -19,9 +19,9 @@
     background-size: cover;
     width: 25%;
     height:25%;
-    background-color: black;
+    background-color: rgb(53, 51, 202);
     -webkit-box-reflect: below 1px linear-gradient(transparent,transparent, #0006);
-
+    border-radius: 30px;
 }
 .swiper-slide img{
     display: block;
