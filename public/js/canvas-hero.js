@@ -40,10 +40,11 @@ async function main() {
       requestAnimationFrame(frame);
     });
     
-    document.addEventListener('click', () =>{
-      video.muted = false;
-  },
-  {once:true})
+    canvas.addEventListener('click', () =>{
+
+    
+      video.muted = !video.muted ? true : false;
+      })
    
   }
   
