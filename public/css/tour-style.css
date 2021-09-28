@@ -167,7 +167,7 @@ div.tour-info{
     color: #2E2B26;
 }  
 .concert--item-day {
-    margin-top: 25px;
+    margin-top: 10px;
     font-size:70px ;
 font-weight: bolder;
 color: #2E2B26;
@@ -175,7 +175,7 @@ color: #2E2B26;
 .concert--item-month{
     font-weight:bold; 
     font-size:30px ;
-
+    margin-top: 40px;
     color: #2E2B26;
    
 }
@@ -209,7 +209,7 @@ color: #2E2B26;
 
 .concert--arrow-button{
     margin-top: 25%;
-    padding-left: 50px;
+    padding-left: 70px;
     margin-right: 50px;
     border-bottom: 2px solid rgb(139, 139, 139);
 
