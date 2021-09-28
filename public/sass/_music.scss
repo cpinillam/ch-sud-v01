@@ -10,7 +10,6 @@
   width:100%;
 }
 .music__banner{
- 
   padding-top: 4%;
   padding-left: 7%;
   width: 50%;
@@ -96,17 +95,7 @@ opacity: 0.9;
 border:none;
 }
 
-@media (max-width: 582px) { 
 
-.card-cd{
-   width: 320px !important;
- }
- 
- .card-cd img{
-   width: 320px;
- }
- 
-}
 
 
 @media (max-width: 914px) { 
@@ -127,7 +116,15 @@ border:none;
     margin-left: -48px;
     display: flex;
     justify-content: center;
+  }  
 }
+@media (max-width: 582px) { 
+
+  .card-cd{
+     width: 320px !important;
+   }
    
- 
+   .card-cd img{
+     width: 320px;
+   }
 }

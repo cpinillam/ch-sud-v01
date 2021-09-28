@@ -125,15 +125,6 @@
   border: none;
 }
 
-@media (max-width: 582px) {
-  .card-cd {
-    width: 320px !important;
-  }
-
-  .card-cd img {
-    width: 320px;
-  }
-}
 @media (max-width: 914px) {
   .music__banner__info {
     position: absolute;
@@ -153,6 +144,15 @@
     margin-left: -48px;
     display: flex;
     justify-content: center;
+  }
+}
+@media (max-width: 582px) {
+  .card-cd {
+    width: 320px !important;
+  }
+
+  .card-cd img {
+    width: 320px;
   }
 }
 * {

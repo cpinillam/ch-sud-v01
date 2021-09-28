@@ -18,17 +18,14 @@ let listaCD=[
   spotify:src="https://open.spotify.com/embed/album/2P2KvTxV6MixUgNoETjmlK",
   },  
 
-  {id:4,
+  {
+  id:4,
   img:"./img/cd3.jpg",
-  spotify: "https://open.spotify.com/embed/album/0F5212xGK3iyDa1b2vf9Q2",
-},
 
-{
-  id:5,
-  img:"./img/cd2.jpeg",
-  spotify: "https://open.spotify.com/embed/album/41Lnt28xeVEe1IFepkTpXN",
+  spotify: "https://open.spotify.com/embed/album/0F5212xGK3iyDa1b2vf9Q2" ,
   },
-  
+
+
 {
   id:6,
   img:"./img/cd1.jpg",
@@ -53,7 +50,6 @@ listaCD.forEach((object)=>printDiscos(object));
 };
 
 loadDiscos();
-
 
 
 //swipper
