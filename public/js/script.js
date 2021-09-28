@@ -7,7 +7,7 @@ tourConcertItems=[
         month:"Oct",
         name:"Festival Atlantikaldia",
         place:"Munich",
-        description:"blabla",
+        description:"descripcion del concierto",
     },
     {
         id:"2",
@@ -15,7 +15,7 @@ tourConcertItems=[
         month:"Nov",
         name:"Festival Atlantikaldia",
         place:"Madrid",
-        description:"bloblo",
+        description:"descripcion del concierto",
     },
     {
         id:"3",
@@ -23,7 +23,7 @@ tourConcertItems=[
         month:"Feb",
         name:"Festival Atlantikaldia",
         place:"Tokio",
-        description:"blibli",
+        description:"descripcion del concierto",
     },
 
     {
@@ -32,14 +32,14 @@ tourConcertItems=[
         month:"Mar",
         name:"Festival Atlantikaldia",
         place:"Berlín",
-        description:"bleble",
+        description:"descripcion del concierto",
     }
 
 ];
 
 function printTourListItems(item, indice){
     scrollConcerts.innerHTML  +=`
-    <div onclick="abrir(${indice})" class="tour--concert-item">
+        <div class="tour--concert-item">
         <div class="concert--item-date">
         <img class="concert-icon" src="img/Polygon 1.png" alt="triángulo">
             <h2 class="concert--item-day">${item.day}</h2>
@@ -52,7 +52,7 @@ function printTourListItems(item, indice){
             <p class="item--info-description">${item.description}</p>
         </div>
         <div class="concert--arrow-button">
-        <img src="img/arrow-forward.png" alt="flecha">
+        <img onclick="abrir(${indice})"src="img/arrow-forward.png" alt="flecha">
         </div>
   
     </div>`;
@@ -79,14 +79,15 @@ let startX;
 let scrollLeft;
 
     slider.addEventListener("mousedown", (e) => {
-    isDown = true;   slider.classList.add('active');
+    isDown = true;  
+   
     startX = e.pageX - slider.offsetLeft;
     scrollLeft = slider.scrollLeft;
  });
  
 slider.addEventListener("mouseup", () => {
     isDown = false;
-    slider.classList.remove('active');
+    // slider.classList.remove('active');
  });
  slider.addEventListener("mousemove", (e) => {
     if(!isDown) return;
@@ -109,7 +110,7 @@ function cerrar(){
 let tourInfo = document.querySelector(".tourDos");
 function showDetails(indice){
     tourInfo.innerHTML  =`
-    <img class="background-concert" src="./img/concert.jpg">
+
     <div class="tourDos--concert-item">
     <a onclick="cerrar(${indice})"><img class="close" src="./img/eliminar-cruz.png"></a>
 
