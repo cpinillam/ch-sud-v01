@@ -63,7 +63,8 @@ margin-top: -50px;
     flex-direction: column;
     font-family: 'Poppins', sans-serif;
     width: 100%;
-    /* position:absolute; */
+    position: relative;
+    
 }
 .block-tour{
    width:100%;
@@ -219,7 +220,7 @@ color: #2E2B26;
     display: flex;
     position: absolute;
     left:80%;
-    top:165%;
+    top:80%;
 
 }
 

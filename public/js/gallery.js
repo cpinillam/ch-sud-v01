@@ -40,7 +40,7 @@ function loadElemento(){
 }
 loadElemento();
 
-function getCSC() {
+/*function getCSC() {
 
     fetch('https://pretagteam.com/question/uncaught-in-promise-syntaxerror-unexpected-end-of-json-input-when-fetch-get-data',{
             'mode':'no-cors',
@@ -52,7 +52,7 @@ function getCSC() {
      .then(data => console.log(data))
     }
 
-  getCSC()
+  getCSC()*/
 
 
 
