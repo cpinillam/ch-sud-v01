@@ -1,0 +1,74 @@
+.flex-center {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.header {
+  display: none;
+}
+
+.header {
+  position: absolute;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.header .logo-brand {
+  min-height: 244px;
+  background-image: url("./../img/layout/logo-bg.png");
+  background-position: top center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container-row {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.hero {
+  width: 100%;
+  height: 100vh;
+  max-height: 1024px;
+  background-image: url("./../img/layout/bg-hero.jpg");
+  background-position: top center;
+  background-repeat: repeat-x;
+}
+
+.hero .container-row {
+  padding-top: 200px;
+}
+
+.hero .canvas_hero {
+  width: 100%;
+  max-width: 1280px;
+}
+
+.tour {
+  width: 100%;
+  background-color: #a68562;
+}
+
+.spotify {
+  width: 100%;
+  background-color: #a5e4bd;
+}
+
+.gallery {
+  width: 100%;
+  background-color: white;
+}
+/*# sourceMappingURL=layout.css.map */
