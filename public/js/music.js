@@ -1,5 +1,4 @@
 let listaCD=[
-
   {
   id:1,
   img:"./img/cd3.jpg",
@@ -20,8 +19,7 @@ let listaCD=[
 
   {
   id:4,
-  img:"./img/cd3.jpg",
-
+  img:"./img/cd3.jpg",                                                                                                                                                                                                                                                                                                                                                                                                                                                   
   spotify: "https://open.spotify.com/embed/album/0F5212xGK3iyDa1b2vf9Q2" ,
   },
 
