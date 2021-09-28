@@ -44,7 +44,6 @@ DOMdiscos.innerHTML += `
                     <div class=" card-cd swiper-slide">
                     <img src="${object.img}">
                     <iframe  class="play-spotify" id="${object.id}" src="${object.spotify}"></iframe>
-                    <button onclick= "muted(${object.id})">*</button>
                     </div>
                     `
                     };
@@ -56,11 +55,7 @@ listaCD.forEach((object)=>printDiscos(object));
 loadDiscos();
 
 
-function muted(id) {
-  var x = document.getElementById(id);
-  var y = x.contentWindow;
-  y.document.getElementById("audio").muted = true;
-}
+
 //swipper
 
 var swiper = new Swiper(".mySwiper", {
@@ -70,7 +65,7 @@ centeredSlides: true,
 slidesPerView: "auto",
 coverflow: {
   rotate: 30,
-  stretch: 0,
+  stretch:0,
   depth: 100,
   modifier: 1,
   slideShadows: false,

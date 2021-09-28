@@ -10,6 +10,7 @@
   width:100%;
 }
 .music__banner{
+ 
   padding-top: 4%;
   padding-left: 7%;
   width: 50%;
@@ -19,10 +20,13 @@
   display: flex;
   flex-direction: column;
   display: flex;
-  flex-wrap: wrap;
-  
-
+  flex-wrap: wrap;  
 }
+.music__banner__info {
+  position: absolute;
+  padding: 40px;
+}
+
 .music__banner h1{
   font-size: 150px;
   margin: 0;
@@ -68,8 +72,8 @@
   
 }
 .card-cd{
- 
-  width: 300px !important;
+ margin-top: 20px;
+  width: 450px !important;
   border-radius: 30px;
   
 }
@@ -77,7 +81,7 @@
 .card-cd img{
  
   border-radius: 20px;
-  width: 300px;
+  width: 450px;
 }
 
 
@@ -91,5 +95,39 @@ border-radius: 20px;
 opacity: 0.9;
 border:none;
 }
-//versión movil
 
+@media (max-width: 582px) { 
+
+.card-cd{
+   width: 320px !important;
+ }
+ 
+ .card-cd img{
+   width: 320px;
+ }
+ 
+}
+
+
+@media (max-width: 914px) { 
+
+  .music__banner__info {
+    position: absolute;
+    margin-top: 99px;
+    margin-left: 32px;
+  }
+  .music__banner h1 {
+    font-size: 110px;
+    margin-left: -56px;
+    display: flex;
+    justify-content: center;
+}
+  .music__banner h2 {
+    font-size: 35px;
+    margin-left: -48px;
+    display: flex;
+    justify-content: center;
+}
+   
+ 
+}
