@@ -217,9 +217,10 @@ color: #2E2B26;
 .tour--concerts-button{
     
     display: flex;
-    position: absolute;
-    left:80%;
-    top:165%;
+    position: relative;
+    width: 8%;
+    margin-left: 80%;
+    margin-top: 10px;
 
 }
 
