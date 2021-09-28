@@ -7,6 +7,8 @@
     <title>Che Sudaka</title>
     <link rel="stylesheet" href="./css/main.css">
     <link rel="stylesheet" href="./css/tour-style.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
 </head>
 <body>
   
@@ -75,9 +77,31 @@
           </div> 
         </section>
 
-        <section class="spotify">
+        <section class="music">
+            <section class="musicContainer">
+                <div class="music__info">
+                    <div class="music__banner">
+                        <div class="music__banner__info">
+                            <h1 class="music__banner__title">Musica</h1>
+                            <h2 class="music__banner__subtitle">De almas rebeldes</h2> 
+                        </div>
+                        
+                    </div>
+                    <aside class="music__aside"></aside>
+                </div>
+                
+                
+                <div class="swiper-container">
+                    <div class="swiper mySwiper">
+                        <div class="swiper-wrapper" id="DOMdiscos"></div>
+                    </div>
+                        
+                </div>
+                      <div class="swiper-pagination"></div>
+                   
+                <div class="music__down"></div>
 
-
+            </section> 
         </section>
 
 
@@ -98,6 +122,8 @@
         </section>
         
     </div>
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script> 
+  <script src="./js/music.js"></script>
   <script src="./js/tour.js"></script>
   <script src="./js/gallery.js"></script>
   <script src="./js/canvas-hero.js"></script>

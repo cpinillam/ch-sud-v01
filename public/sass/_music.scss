@@ -1,6 +1,7 @@
 .music{
   background-color: #efd0a178;
 };
+
 .swiper-wrapper{
   margin: 15px;
 
@@ -86,13 +87,11 @@
 .swiper-slide {
   background-position: center;
   background-size: cover;
-  width: 200px;
-  //-webkit-box-reflect: below 0 linear-gradient(transparent, transparent, black); 
+  width: 200px; 
 }
 
 .card-cd{
-  
- margin-top: 20px;
+  margin-top: 20px;
   width: 450px !important;
   border-radius: 30px;
   
@@ -111,10 +110,10 @@
 
 .play-spotify{
   width: 99%;
-height: 80px;
-border-radius: 20px;
-opacity: 0.9;
-border:none;
+  height: 80px;
+  border-radius: 20px;
+  opacity: 0.9;
+  border:none;
 }
 
 
