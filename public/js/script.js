@@ -41,7 +41,7 @@ function printTourListItems(item, indice){
     scrollConcerts.innerHTML  +=`
     <div onclick="abrir(${indice})" class="tour--concert-item">
         <div class="concert--item-date">
-        <img class="concert-icon" src="img/Polygon 1.png" alt="triángulo">
+        <img class="concert-icon" src="./img/img-tour/Polygon 1.png" alt="triángulo">
             <h2 class="concert--item-day">${item.day}</h2>
             <p class="concert--item-month">${item.month}</p>
         </div>
@@ -52,7 +52,7 @@ function printTourListItems(item, indice){
             <p class="item--info-description">${item.description}</p>
         </div>
         <div class="concert--arrow-button">
-        <img src="img/arrow-forward.png" alt="flecha">
+        <img src="./img/img-tour/arrow-forward.png" alt="flecha">
         </div>
   
     </div>`;

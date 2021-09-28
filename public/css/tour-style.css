@@ -1,4 +1,4 @@
-@import url(media.css);
+@import url(tour-media.css);
 
 body{
     margin: 0%;
@@ -58,12 +58,12 @@ margin-top: -50px;
    
 }
 
-.tour{
+.tourinterno{
     display:flex;
     flex-direction: column;
     font-family: 'Poppins', sans-serif;
     width: 100%;
-    position:absolute;
+    position:relative;
     padding-left: 20%;
   
     margin: 20px;
