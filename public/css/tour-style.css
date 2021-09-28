@@ -1,0 +1,246 @@
+@import url(tour-media.css);
+
+body{
+    margin: 0%;
+}
+.tourDos{
+    font-family: 'Poppins', sans-serif;
+    display: none;
+    background: rgb(35 35 35 / 80%);
+    position: relative;
+    padding: 100%;
+    padding-bottom: 20%;
+    justify-content: center;
+    align-content: center;
+
+    
+}
+.tourDos--concert-item{
+    display: flex;
+    align-items: center;
+    align-content:center;
+    background-color: white;
+    padding: 10%;
+    position: absolute;
+    top: 5%;
+    border-radius: 5%;
+   
+    
+}
+.background-concert{
+    height: 20%;
+    width: 20%;
+    opacity: 50%;
+}
+.tourDos--concert-item::before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background-color: rgba(0,0,0,0.25);
+}
+
+.tourDos--item-date{
+margin-top: -50px;
+}
+.close{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top: 25px;
+    right: 25px;
+    
+}
+.concerts-column{
+    display:flex;
+   
+}
+
+.tourinterno{
+    display:flex;
+    flex-direction: column;
+    font-family: 'Poppins', sans-serif;
+    width: 100%;
+    /* position:absolute; */
+}
+.block-tour{
+   width:100%;
+   background-color: white;
+
+}
+.tour--info{
+    display: flex;
+    width: 100%;
+}
+div.tour-info{
+    display: flex;
+    width: 100%;
+    margin: 0%;
+    display: flex;
+    position: absolute;
+    background-color: rgb(205 204 204 / 80%);
+    padding: 5%;
+    top: 20%;
+    left: 6%;
+    max-width: 50%;
+}
+
+.tour--info-title{
+    font-size:300px;
+    margin-bottom: 0px;
+    font-weight:780;
+    color: #2E2B26;
+    
+}
+.tour--info-subtitle{
+    font-size: 30px;
+    font-weight: bold; 
+    margin-left: 60px;
+    color: #2E2B26;
+   
+}
+.tour--info-header{
+    color: #2E2B26;
+    
+}
+.tour--img-chiva{
+    mix-blend-mode: luminosity;
+   margin-top: 10%;
+  
+}
+.tour--concerts-links{
+    display: flex;
+}
+.tour--concerts{
+    display: flex; 
+}
+.tour--concerts-scroll{
+    display: flex;
+    overflow-x: auto;
+    white-space: nowrap;
+    height: 30%;
+    width: 70%;
+    padding-top: 2%;
+    cursor: pointer;  
+}
+.tour--concerts-scroll::-webkit-scrollbar {
+    height: 20px;
+    background: #fff;
+    opacity: 80%;
+}
+.tour--concerts-scroll::-webkit-scrollbar-thumb {
+     
+    height: 20px;
+    display: none;
+    background:rgb(235, 233, 233);
+    opacity: 80%;
+}
+.tour--concert-item{
+    display: flex;
+    margin-right: 0px;
+    width: 500px;
+    border-top: solid 15px #c4c4c4;
+  
+     
+}
+.concert-icon{ 
+    margin-top: -1%;
+    margin-bottom: 100%;
+    height: 35px;
+    color: #2E2B26;
+    margin-top: -1;
+
+}
+.concert-text{
+    display: flex;
+    margin-right: 20px;
+    width: 500px;
+    margin-top: 15%;
+    color: #2E2B26;
+}
+.concert--item-date{
+    margin-right: 5%;
+    text-align: center;
+    line-height: 1%;
+    color: #2E2B26;
+}  
+.concert--item-day {
+    margin-top: 25px;
+    font-size:70px ;
+font-weight: bolder;
+color: #2E2B26;
+}
+.concert--item-month{
+    font-weight:bold; 
+    font-size:30px ;
+
+    color: #2E2B26;
+   
+}
+
+.concert--item-info{
+    padding-right: 50px;
+    border-bottom: 2px solid rgb(139, 139, 139);
+    width: 175px;
+    margin-top: 25%;
+
+}
+
+.item--info-name{
+    margin-top: 0px;
+    padding: 0px;
+    font-size:24px ;
+    font-weight:bold;
+     margin-bottom: 90%; 
+    margin-bottom: 30px;
+}
+.item--info-place{
+    font-size:20px ;
+   
+     
+}
+.item--info-description{
+    font-size:15px ;
+    margin-top: 0px;
+    opacity: 60%;
+}
+
+.concert--arrow-button{
+    margin-top: 25%;
+    padding-left: 50px;
+    margin-right: 50px;
+    border-bottom: 2px solid rgb(139, 139, 139);
+
+}
+.tour--concerts-button{
+    
+    display: flex;
+    position: absolute;
+    left:80%;
+    top:165%;
+
+}
+
+.concerts--button-arrow{
+    display: flex;
+    flex-direction: row-reverse; 
+   width: 100%;
+   height: 90px;
+   align-items: center;
+   justify-content: space-between;
+   padding-left: 20px;
+   background-color:#2E2E2E;
+   color: white;
+   font-size: 12px;
+   border-radius: 10%;
+}
+
+
+.active{
+    background-color: white;
+    cursor: grabbing;
+    cursor: -webkit-grabbing;
+    transform: scale(1);
+}
