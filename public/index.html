@@ -10,89 +10,49 @@
 <body>
   
     <section class="header" >
-            <div class="header_icon">
-                <p>CHE SUDAKA</p>
-            </div>
-
-            <div class="header_nav">
-             <ul>
-                 <li>Menu Item</li>
-                 <li>Menu Item</li>
-                 <li>Menu Item</li>
-             </ul>
-            </div>
-
-            <div class="header_btn">
-                <button>Boton</button>
-                <button>Boton</button>
-            </div>
+           <div class="logo-brand">
+               <img src="./img/layout/logo-principal.png" alt="">
+           </div>
     </section>
 
     <div class="containerGrid">
+        
+        
         <section class="hero">
-            <h1>I'm in firebase</h1>
-<!-- 
-            <video src=""></video>
-            <div class="hero_components">
-                <img src="./img/chesudaka.png">
-                <p> Bienvenidos</p>
-                <h1>Arriba la vaina !</h1>
-            </div>
---> 
+           <div class="container-row flex-center">
+                <canvas class="canvas_hero" width="1280" height="720"></canvas>
+           </div>
         </section>
 
         <section class="tour">
-<!-- 
-            <div class="tour_timeLine">
-                <h1>Tour</h1>
-                <h2>Recorriendo el mundo sin papeles</h2>
-                <img src="./img/line2.webp" alt="linea">
-                <img src="./img/chiva2.jpg" alt="carro ">
-            </div>
-            <div class="tour_festivals">
-                <div id="DOMfestival">
-                    <div class="tour_calendar">  
-                        <h3>25</h3>
-                        <p>Sept</p>      
-                    </div>
-                    <div class="tour_address">
-                        <p>Festival name</p>
-                        <p>Location</p>
-                        <p>Description of the concert</p>
-                    </div>
-                    <div class="tour_arrow">
-                        <img src="./img/flecha.png" >
-                    </div>
-                </div>
-                <button class="tour_btn">Ver Mas <img src="./img/flecha.png"></button>
-            </div>
---> 
+            <h2>testte</h2>
         </section>
 
         <section class="spotify">
-<!--          <div class="spotify_title">
-                <h1>Musica</h1>
-                <h2>De almas rebeldes</h2>
-            </div>
-            <div class="spotify_cd" id="DOMcd">
-                <article class="cd">
-                    <div class="up up2">
-                    <img src="./img/cd1.jpg" >
-                    </div>
-                    <div class="down">play</div>
-                </article>
-           </div> 
--->
+
 
         </section>
+
 
         <section class="gallery">
-<!--            <section class="footer"></section>   -->
+            <div class="container-row">
+                    <div class="gallery-main">
+                    
+                            <h1 class ="gallery__titulo">Todo Vuelve</h1>
+                            <h2 class ="gallery__subtitulo">Galeria</h2>
+                            <div id="galleryPrint" class="gallery__site">
+                                <div id="galleryPrincipal" class ="gallery__box--principal"></div>
+                                <div id="gallerySecundary" class ="gallery__box--secundary"></div>
+                            </div>    
+                            <button class ="gallery__boton">Ver Mas</button>
+                    
+                        </div>
+             </div>           
         </section>
-
         
     </div>
   
-  
+  <script src="./gallery.js"></script>
+  <script src="./js/canvas-hero.js"></script>
 </body>
 </html>
