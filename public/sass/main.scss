@@ -1,6 +1,8 @@
-@use "layout.scss";
-@use "gallery.scss";
+@use "layout";
+@use "gallery";
 @use "cursor";
+@use "tour";
+@use "music";
 
 
  * {
@@ -10,4 +12,5 @@
  }
 
 
+ 
 
