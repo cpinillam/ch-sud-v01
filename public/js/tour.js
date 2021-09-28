@@ -7,7 +7,7 @@ tourConcertItems=[
         month:"Oct",
         name:"Festival Atlantikaldia",
         place:"Munich",
-        description:"blabla",
+        description:"descripción",
     },
     {
         id:"2",
@@ -15,7 +15,7 @@ tourConcertItems=[
         month:"Nov",
         name:"Festival Atlantikaldia",
         place:"Madrid",
-        description:"bloblo",
+        description:"descripción",
     },
     {
         id:"3",
@@ -23,7 +23,7 @@ tourConcertItems=[
         month:"Feb",
         name:"Festival Atlantikaldia",
         place:"Tokio",
-        description:"blibli",
+        description:"descripción",
     },
 
     {
@@ -32,8 +32,24 @@ tourConcertItems=[
         month:"Mar",
         name:"Festival Atlantikaldia",
         place:"Berlín",
-        description:"bleble",
-    }
+        description:"descripción",
+    },
+    {
+        id:"4",
+        day:"23",
+        month:"Mar",
+        name:"Festival Atlantikaldia",
+        place:"Berlín",
+        description:"descripción",
+    },
+    {
+        id:"3",
+        day:"12",
+        month:"Feb",
+        name:"Festival Atlantikaldia",
+        place:"Tokio",
+        description:"descripción",
+    },
 
 ];
 
