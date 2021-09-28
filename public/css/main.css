@@ -109,11 +109,12 @@
 .music__aside {
   width: 50%;
   height: 70vh;
-  background-image: linear-gradient(rgba(10, 10, 10, 0.808), rgba(17, 16, 16, 0.883)), url("../img/descarga (4).jpeg");
+  background-image: linear-gradient(rgba(10, 10, 10, 0.808), rgba(17, 16, 16, 0.883)), url("../img/background_aside_music.jpeg");
   background-size: cover;
 }
 
 .music__down {
+  padding: 3px;
   height: 33vh;
 }
 
