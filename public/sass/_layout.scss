@@ -3,10 +3,10 @@
   justify-content: center;
 }
 
-@mixin dimensions($background: DarkGray) {
+@mixin dimensions() {
     width: 100%;
 
-    background-color: $background;
+
 }; 
 
 @mixin for-phone-only {
@@ -38,7 +38,7 @@
 }
 
 .containerGrid{
-   
+   overflow-x: hidden;
 
     @include for-phone-only{}
     @include for-tablet-portrait-up{}
@@ -96,19 +96,23 @@
    
 
 .tour{
-    @include dimensions(#a68562);
+    @include dimensions();
     
 };
 
 .spotify{
-    @include dimensions(#a5e4bd);
+    @include dimensions();
     
 };
 
 .gallery{
-    @include dimensions(white);
+    @include dimensions()
     
 }; 
+
+.container-vertical_padding{
+  padding: 60px 0px 60px 0px;
+}
 
 
 

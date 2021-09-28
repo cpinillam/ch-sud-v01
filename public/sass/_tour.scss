@@ -1,4 +1,9 @@
+.tour{
+    background-image: url(../img/layout/bg.jpg);
+    background-position: center center;
 
+    
+};
 .tourDos{
     font-family: 'Poppins', sans-serif;
     display: none;
@@ -60,7 +65,7 @@ margin-top: -50px;
 }
 .block-tour{
    width:100%;
-   background-color: white;
+
 
 }
 .tour--info{
@@ -99,8 +104,8 @@ div.tour-info{
     
 }
 .tour--img-chiva{
-    mix-blend-mode: luminosity;
-   margin-top: 10%;
+    mix-blend-mode: multiply;
+
   
 }
 .tour--concerts-links{
@@ -120,14 +125,14 @@ div.tour-info{
 }
 .tour--concerts-scroll::-webkit-scrollbar {
     height: 20px;
-    background: #fff;
+
     opacity: 80%;
 }
 .tour--concerts-scroll::-webkit-scrollbar-thumb {
      
     height: 20px;
     display: none;
-    background:rgb(235, 233, 233);
+
     opacity: 80%;
 }
 .tour--concert-item{
@@ -232,10 +237,10 @@ color: #2E2B26;
 
 
 .active{
-    background-color: white;
+
     cursor: grabbing;
     cursor: -webkit-grabbing;
-    transform: scale(1);
+
 }
 
 

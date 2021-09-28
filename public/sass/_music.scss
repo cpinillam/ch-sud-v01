@@ -1,6 +1,7 @@
-.music{
-  background-color: #efd0a178;
-};
+.music {
+    background-image: url(../img/layout/bg.jpg);
+    background-position: center center;
+}
 
 .swiper-wrapper{
   margin: 15px;
@@ -11,30 +12,21 @@
   display: flex;
   flex-direction: column;
   position: relative;
-  height: 100%; 
+ 
 };
 
 .music__info{
   display: flex;
-  width:100%;
+ 
 };
 
 .music__banner{
-  padding-top: 4%;
-  padding-left: 7%;
   width: 50%;
-  height: 70vh;
-  background: rgb(10 10 10 / 98%);
-  color: white; 
-  display: flex;
-  flex-direction: column;
-  display: flex;
-  flex-wrap: wrap;  
 
 };
 
 .music__banner__info {
-  position: absolute;
+
   padding: 40px;
  
 };
@@ -42,20 +34,22 @@
 .music__banner h1{
   font-size: 150px;
   margin: 0;
-  color: #efd0a1d2;
+
  
 };
 
 .music__banner h2{
   font-size: 35px;
   margin: 0;
-  color: #e1b57191;
+
   
 };
 
 .music__aside{
+  position: absolute;
   width: 50%;
-  height: 70vh;
+  height: 50vh;
+  right: 0%;
   background-image:linear-gradient(rgba(10, 10, 10, 0.808), rgba(17, 16, 16, 0.883)), url("../img/background_aside_music.jpeg");
   background-size: cover;
 
@@ -64,6 +58,7 @@
 .music__down{
   padding: 3px;
   height: 33vh;
+  display: none;
 };
 
 
@@ -76,10 +71,9 @@
   overflow:visible !important;
 }
 .swiper-container {
-  position: absolute;
+
   width: 100%;
-  margin-top: 40vh;
- overflow-x: hidden;
+
  
 }
 
@@ -119,7 +113,7 @@
 
 
 
-@media (max-width: 1019px) { 
+/* @media (max-width: 1019px) { 
 
   .music__banner__info {
     position: absolute;
@@ -149,4 +143,4 @@
    .card-cd img{
      width: 320px;
    }
-}
+} */
