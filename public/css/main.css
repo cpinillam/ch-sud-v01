@@ -463,11 +463,13 @@ div.tour-info {
 }
 
 .tour--info-header {
-  color: #2E2B26;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .tour--img-chiva {
-  mix-blend-mode: multiply;
+  max-width: 500px;
 }
 
 .tour--concerts-links {
