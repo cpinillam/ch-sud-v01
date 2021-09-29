@@ -3,12 +3,14 @@
 @use "cursor";
 @use "tour";
 @use "music";
+@use "footer";
 
 
  * {
      box-sizing: border-box;
      margin: 0px;
      padding: 0px;
+     font-family: 'Poppins', sans-serif;
  }
 
 

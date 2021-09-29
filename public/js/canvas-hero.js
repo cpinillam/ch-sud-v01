@@ -10,6 +10,7 @@ async function main() {
     video.loop = true;
     video.playsinline = true;
     video.src = "http://okgooru.es/melquiades/video-final-v05.mp4";
+  /*   video.src = "./video/video-final-v05.mp4"; */
     const maskImage = document.createElement('img');
     maskImage.src = "./img/layout/ink-hero.png";
 

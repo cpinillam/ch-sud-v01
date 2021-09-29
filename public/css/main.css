@@ -1,3 +1,4 @@
+@import url("https://use.fontawesome.com/releases/v5.7.0/css/all.css");
 .flex-center {
   display: flex;
   justify-content: center;
@@ -431,6 +432,7 @@
 .tour--info {
   display: flex;
   width: 100%;
+  justify-content: space-between;
 }
 
 div.tour-info {
@@ -447,17 +449,17 @@ div.tour-info {
 }
 
 .tour--info-title {
-  font-size: 300px;
+  font-size: 150px;
   margin-bottom: 0px;
-  font-weight: 780;
-  color: #2E2B26;
+  font-weight: bold;
+  color: #970808;
 }
 
 .tour--info-subtitle {
   font-size: 30px;
-  font-weight: bold;
-  margin-left: 60px;
-  color: #2E2B26;
+  margin-left: 37px;
+  color: #9f6300;
+  margin-top: -20px;
 }
 
 .tour--info-header {
@@ -584,14 +586,14 @@ div.tour-info {
 .concerts--button-arrow {
   display: flex;
   flex-direction: row-reverse;
-  width: 100%;
-  height: 70px;
   align-items: center;
   padding-left: 10px;
-  background-color: #2E2E2E;
+  background-color: #970808;
   color: white;
-  font-size: 15px;
-  border-radius: 10%;
+  font-size: 17px;
+  border-radius: 16px;
+  border: none;
+  padding: 20px;
 }
 
 .active {
@@ -730,17 +732,21 @@ div.tour-info {
 }
 
 .music__banner__info {
-  padding: 40px;
+  padding: 40px 0px;
 }
 
 .music__banner h1 {
-  font-size: 150px;
-  margin: 0;
+  font-size: 130px;
+  margin-bottom: 0px;
+  font-weight: bold;
+  color: #970808;
 }
 
 .music__banner h2 {
-  font-size: 35px;
-  margin: 0;
+  font-size: 30px;
+  font-weight: 100;
+  color: #9f6300;
+  margin-top: -20px;
 }
 
 .music__aside {
@@ -750,6 +756,7 @@ div.tour-info {
   right: 0%;
   background-image: linear-gradient(rgba(10, 10, 10, 0.808), rgba(17, 16, 16, 0.883)), url("../img/background_aside_music.jpeg");
   background-size: cover;
+  opacity: 0.2;
 }
 
 .music__down {
@@ -828,10 +835,118 @@ div.tour-info {
      width: 320px;
    }
 } */
+/* header{
+    position: fixed;
+    top: 0px;
+    width: 100%;
+}
+.header{
+    display: flex;
+    background-color: white;
+    height: 100px;
+    align-items: center;
+    justify-content: space-between;
+    transition: 0.3s;
+} */
+.logo {
+  color: #424242;
+  width: 33%;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.img {
+  display: flex;
+  justify-content: end;
+  width: 33%;
+}
+
+.imgsvg {
+  width: 30px;
+  height: 30px;
+  fill: #f8d0d0;
+}
+
+.menuitem {
+  margin: 5px;
+  text-decoration: none;
+  color: #424242;
+}
+
+i {
+  font-size: 30px;
+  color: #424242;
+  margin: 5px;
+}
+
+.hola {
+  font-size: 40px;
+}
+
+.headerAdios {
+  display: none;
+}
+
+.footerlist {
+  list-style: none;
+}
+
+footer {
+  margin: 100px 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+footer li {
+  color: gray;
+}
+
+.icons {
+  color: #424242;
+}
+
+footer i {
+  color: #424242;
+  padding-top: 5px;
+}
+
+.hola1 {
+  position: absolute;
+  width: 28px;
+  padding-top: 9px;
+  padding-left: 8px;
+}
+
+.firtsitemlist {
+  color: #424242;
+  font-weight: bold;
+}
+
+hr {
+  width: 75%;
+  margin-bottom: 20px;
+}
+
+.footerdiv li {
+  padding-top: 10px;
+}
+
+.selecidiomainput {
+  display: flex;
+  height: 40px;
+  width: 130px;
+  margin-top: 10px;
+}
+
 * {
   box-sizing: border-box;
   margin: 0px;
   padding: 0px;
+  font-family: "Poppins", sans-serif;
 }
 
 /*# sourceMappingURL=main.css.map */

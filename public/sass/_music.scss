@@ -27,21 +27,28 @@
 
 .music__banner__info {
 
-  padding: 40px;
+  padding: 40px 0px;
  
 };
 
 .music__banner h1{
-  font-size: 150px;
-  margin: 0;
 
+  font-size: 130px;
+  margin-bottom: 0px;
+  font-weight: bold;
+  color: #970808;
  
 };
 
-.music__banner h2{
-  font-size: 35px;
-  margin: 0;
 
+
+.music__banner h2{
+
+ font-size: 30px;
+
+font-weight: 100;
+  color: #9f6300;
+  margin-top: -20px;
   
 };
 
@@ -52,6 +59,7 @@
   right: 0%;
   background-image:linear-gradient(rgba(10, 10, 10, 0.808), rgba(17, 16, 16, 0.883)), url("../img/background_aside_music.jpeg");
   background-size: cover;
+  opacity: .2;
 
 };
 

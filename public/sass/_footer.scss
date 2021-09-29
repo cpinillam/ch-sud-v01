@@ -1,0 +1,94 @@
+@import url('https://use.fontawesome.com/releases/v5.7.0/css/all.css');
+
+/* header{
+    position: fixed;
+    top: 0px;
+    width: 100%;
+}
+.header{
+    display: flex;
+    background-color: white;
+    height: 100px;
+    align-items: center;
+    justify-content: space-between;
+    transition: 0.3s;
+} */
+.logo{
+    color: #424242;
+    width: 33%;
+}
+.menu{
+    display: flex;
+    justify-content: space-evenly;
+}
+.img{
+    display: flex;
+    justify-content: end;
+    width: 33%;
+
+}
+.imgsvg{
+    width: 30px;
+    height: 30px;
+    fill: #f8d0d0;
+}
+.menuitem{
+    margin: 5px;
+    text-decoration: none;
+    color: #424242;
+}
+i{
+    font-size: 30px;
+    color: #424242;
+    margin: 5px;
+}
+.hola{
+    font-size: 40px;
+}
+.headerAdios{
+    display: none;
+}
+.footerlist{
+    list-style: none;
+}
+footer{
+    margin: 100px 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+footer li{
+    color: gray;
+}
+.icons{
+    color: #424242;
+}
+footer i{
+    color: #424242;
+    padding-top: 5px;
+}
+.hola1{
+    position: absolute;
+    width: 28px;
+    padding-top: 9px;
+    padding-left: 8px;
+}
+.firtsitemlist{
+    color: #424242;
+    font-weight: bold;
+}
+hr{
+    width: 75%;
+    margin-bottom: 20px;
+}
+.footerdiv li{
+    padding-top: 10px;
+}
+.selecidiomainput{
+    display: flex;
+    height: 40px;
+    width: 130px;
+    margin-top: 10px;
+}
+
